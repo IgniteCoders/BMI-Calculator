@@ -47,5 +47,4 @@ class MainActivity : AppCompatActivity() {
             resultTextView.text = "$result"
         }
     }
-
 }
