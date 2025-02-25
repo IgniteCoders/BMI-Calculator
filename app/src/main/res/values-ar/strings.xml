@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حاسبة مؤشر كتلة الجسم</string>
+
+    <string name="label_height">الطول (سم):</string>
+    <string name="label_weight">الوزن (كجم):</string>
+
+    <string name="calculate_button">احسب مؤشر كتلة الجسم</string>
+
+    <string name="imc_underweight">نقص الوزن</string>
+    <string name="imc_normal">الوزن الطبيعي</string>
+    <string name="imc_overweight">زيادة الوزن</string>
+    <string name="imc_obesity1">السمنة المرحلة الأولى</string>
+    <string name="imc_obesity2">السمنة المرحلة الثانية</string>
+    <string name="imc_obesity3">السمنة المرحلة الثالثة</string>
+</resources>

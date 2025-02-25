@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI-Calculator</string>
+
+
+    <string name="label_height">Altura (cm):</string>
+    <string name="label_weight">Peso (kg):</string>
+
+    <string name="calculate_button">Calcular IMC</string>
+
+    <string name="imc_underweight">Bajo peso</string>
+    <string name="imc_normal">Normal</string>
+    <string name="imc_overweight">Sobrepeso</string>
+    <string name="imc_obesity1">Obesidad I</string>
+    <string name="imc_obesity2">Obesidad II</string>
+    <string name="imc_obesity3">Obesidad III</string>
+</resources>

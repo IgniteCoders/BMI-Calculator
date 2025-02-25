@@ -2,7 +2,6 @@ package com.example.bmi_calculator
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var calculateButton: Button
     lateinit var resultTextView: TextView
+    lateinit var descriptionTextView: TextView
 
     var height = 170.0f
     var weight = 75.0f
@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         calculateButton = findViewById(R.id.calculateButton)
         resultTextView = findViewById(R.id.resultTextView)
+        descriptionTextView = findViewById(R.id.descriptionTextView)
 
         heightSlider.addOnChangeListener { slider, value, fromUser ->
             height = value
@@ -70,6 +71,38 @@ class MainActivity : AppCompatActivity() {
             val result = weight / (height / 100).pow(2)
 
             resultTextView.text = String.format(Locale.getDefault(), "%.2f", result)
+
+            var colorId = 0
+            var textId = 0
+            when (result) {
+                in 0f..<18.5f -> {
+                    colorId = R.color.imc_underweight
+                    textId = R.string.imc_underweight
+                }
+                in 18.5f..<25f -> {
+                    colorId = R.color.imc_normal
+                    textId = R.string.imc_normal
+                }
+                in 25f..<30f -> {
+                    colorId = R.color.imc_overweight
+                    textId = R.string.imc_overweight
+                }
+                in 30f..<35f -> {
+                    colorId = R.color.imc_obesity1
+                    textId = R.string.imc_obesity1
+                }
+                in 35f..<40f -> {
+                    colorId = R.color.imc_obesity2
+                    textId = R.string.imc_obesity2
+                }
+                else -> {
+                    colorId = R.color.imc_obesity3
+                    textId = R.string.imc_obesity3
+                }
+            }
+            resultTextView.setTextColor(getColor(colorId))
+            descriptionTextView.setTextColor(getColor(colorId))
+            descriptionTextView.text = getString(textId)
         }
     }
 }
