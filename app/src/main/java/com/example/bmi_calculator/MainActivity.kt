@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.slider.Slider
+import java.util.Locale
 import kotlin.math.pow
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var calculateButton: Button
     lateinit var resultTextView: TextView
 
+    var height = 170.0f
     var weight = 75.0f
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,40 +48,28 @@ class MainActivity : AppCompatActivity() {
         weightAddButton = findViewById(R.id.weightAddButton)
         weightMinusButton = findViewById(R.id.weightMinusButton)
 
-
-
-
-
         calculateButton = findViewById(R.id.calculateButton)
         resultTextView = findViewById(R.id.resultTextView)
 
         heightSlider.addOnChangeListener { slider, value, fromUser ->
-            heightTextView.text = "${value.toInt()}"
+            height = value
+            heightTextView.text = "${height.toInt()}"
         }
 
         weightAddButton.setOnClickListener {
             weight ++
-            weightTextView.text = "$weight"
+            weightTextView.text = "${weight.toInt()}"
         }
 
         weightMinusButton.setOnClickListener {
             weight --
-            weightTextView.text = "$weight"
+            weightTextView.text = "${weight.toInt()}"
         }
 
-
-
-
-        //heightEditText.setText("180")
-        //weightEditText.setText("70")
-
         calculateButton.setOnClickListener {
-            val height = 0f//heightEditText.text.toString().toFloat()
-            val weight = 0f//weightEditText.text.toString().toFloat()
-
             val result = weight / (height / 100).pow(2)
 
-            resultTextView.text = "$result"
+            resultTextView.text = String.format(Locale.getDefault(), "%.2f", result)
         }
     }
 }
