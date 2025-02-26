@@ -6,6 +6,7 @@
 
     <color name="background">#BAB2F1</color>
     <color name="primary">#644F9F</color>
+    <color name="secondary">#009688</color>
 
     <color name="imc_underweight">#03A9F4</color>
     <color name="imc_normal">#4CAF50</color>

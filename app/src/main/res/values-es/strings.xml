@@ -14,4 +14,8 @@
     <string name="imc_obesity1">Obesidad I</string>
     <string name="imc_obesity2">Obesidad II</string>
     <string name="imc_obesity3">Obesidad III</string>
+
+    <string name="obesity_alert_title">Riesgo de salud</string>
+    <string name="obesity_alert_message">Tu IMC muestra un posible riesgo para la salud, ¿quieres ver recomendaciones al respecto?</string>
+    <string name="obesity_alert_button">Mostrar recomendaciones</string>
 </resources>

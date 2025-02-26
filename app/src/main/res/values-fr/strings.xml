@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI-Calculator</string>
+
+
+    <string name="label_height">Hauteur (cm) :</string>
+    <string name="label_weight">Poids (kg) :</string>
+
+    <string name="calculate_button">Calculer l\'IMC</string>
+
+    <string name="imc_underweight">Insuffisance pondérale</string>
+    <string name="imc_normal">Normal</string>
+    <string name="imc_overweight">Surpoids</string>
+    <string name="imc_obesity1">Obésité I</string>
+    <string name="imc_obesity2">Obésité II</string>
+    <string name="imc_obesity3">Obésité III</string>
+
+    <string name="obesity_alert_title">Risque pour la santé</string>
+    <string name="obesity_alert_message">Votre IMC indique un risque potentiel pour la santé, souhaitez-vous voir des recommandations à ce sujet ?</string>
+    <string name="obesity_alert_button">Afficher les recommandations</string>
+</resources>

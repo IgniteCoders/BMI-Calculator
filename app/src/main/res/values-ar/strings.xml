@@ -13,4 +13,8 @@
     <string name="imc_obesity1">السمنة المرحلة الأولى</string>
     <string name="imc_obesity2">السمنة المرحلة الثانية</string>
     <string name="imc_obesity3">السمنة المرحلة الثالثة</string>
+
+    <string name="obesity_alert_title">خطر صحي</string>
+    <string name="obesity_alert_message">مؤشر كتلة الجسم لديك يظهر خطرًا صحيًا محتملاً، هل ترغب في مشاهدة التوصيات المتعلقة بذلك؟</string>
+    <string name="obesity_alert_button">عرض التوصيات</string>
 </resources>

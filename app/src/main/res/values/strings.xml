@@ -13,4 +13,8 @@
     <string name="imc_obesity1">Obesity I</string>
     <string name="imc_obesity2">Obesity II</string>
     <string name="imc_obesity3">Obesity III</string>
+
+    <string name="obesity_alert_title">Health risk</string>
+    <string name="obesity_alert_message">Your BMI shows a possible health risk, you want to see recommendations about it!</string>
+    <string name="obesity_alert_button">Show recommendations</string>
 </resources>
