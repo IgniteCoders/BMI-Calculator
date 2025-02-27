@@ -7,12 +7,12 @@
 
     <string name="calculate_button">Calculate BMI</string>
 
-    <string name="imc_underweight">Underweight</string>
-    <string name="imc_normal">Normal</string>
-    <string name="imc_overweight">Overweight</string>
-    <string name="imc_obesity1">Obesity I</string>
-    <string name="imc_obesity2">Obesity II</string>
-    <string name="imc_obesity3">Obesity III</string>
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obesity1">Obesity I</string>
+    <string name="bmi_obesity2">Obesity II</string>
+    <string name="bmi_obesity3">Obesity III</string>
 
     <string name="obesity_alert_title">Health risk</string>
     <string name="obesity_alert_message">Your BMI shows a possible health risk, you want to see recommendations about it!</string>

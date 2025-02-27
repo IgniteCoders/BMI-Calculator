@@ -7,12 +7,12 @@
 
     <string name="calculate_button">احسب مؤشر كتلة الجسم</string>
 
-    <string name="imc_underweight">نقص الوزن</string>
-    <string name="imc_normal">الوزن الطبيعي</string>
-    <string name="imc_overweight">زيادة الوزن</string>
-    <string name="imc_obesity1">السمنة المرحلة الأولى</string>
-    <string name="imc_obesity2">السمنة المرحلة الثانية</string>
-    <string name="imc_obesity3">السمنة المرحلة الثالثة</string>
+    <string name="bmi_underweight">نقص الوزن</string>
+    <string name="bmi_normal">الوزن الطبيعي</string>
+    <string name="bmi_overweight">زيادة الوزن</string>
+    <string name="bmi_obesity1">السمنة المرحلة الأولى</string>
+    <string name="bmi_obesity2">السمنة المرحلة الثانية</string>
+    <string name="bmi_obesity3">السمنة المرحلة الثالثة</string>
 
     <string name="obesity_alert_title">خطر صحي</string>
     <string name="obesity_alert_message">مؤشر كتلة الجسم لديك يظهر خطرًا صحيًا محتملاً، هل ترغب في مشاهدة التوصيات المتعلقة بذلك؟</string>

@@ -8,12 +8,12 @@
 
     <string name="calculate_button">Calcular IMC</string>
 
-    <string name="imc_underweight">Bajo peso</string>
-    <string name="imc_normal">Normal</string>
-    <string name="imc_overweight">Sobrepeso</string>
-    <string name="imc_obesity1">Obesidad I</string>
-    <string name="imc_obesity2">Obesidad II</string>
-    <string name="imc_obesity3">Obesidad III</string>
+    <string name="bmi_underweight">Bajo peso</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Sobrepeso</string>
+    <string name="bmi_obesity1">Obesidad I</string>
+    <string name="bmi_obesity2">Obesidad II</string>
+    <string name="bmi_obesity3">Obesidad III</string>
 
     <string name="obesity_alert_title">Riesgo de salud</string>
     <string name="obesity_alert_message">Tu IMC muestra un posible riesgo para la salud, ¿quieres ver recomendaciones al respecto?</string>

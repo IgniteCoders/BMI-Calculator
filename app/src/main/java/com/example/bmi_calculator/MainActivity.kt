@@ -82,30 +82,30 @@ class MainActivity : AppCompatActivity() {
         var textId = 0
         when (result) {
             in 0f..<18.5f -> {
-                colorId = R.color.imc_underweight
-                textId = R.string.imc_underweight
+                colorId = R.color.bmi_underweight
+                textId = R.string.bmi_underweight
             }
             in 18.5f..<25f -> {
-                colorId = R.color.imc_normal
-                textId = R.string.imc_normal
+                colorId = R.color.bmi_normal
+                textId = R.string.bmi_normal
             }
             in 25f..<30f -> {
-                colorId = R.color.imc_overweight
-                textId = R.string.imc_overweight
+                colorId = R.color.bmi_overweight
+                textId = R.string.bmi_overweight
             }
             in 30f..<35f -> {
-                colorId = R.color.imc_obesity1
-                textId = R.string.imc_obesity1
+                colorId = R.color.bmi_obesity1
+                textId = R.string.bmi_obesity1
                 showObesityDialog()
             }
             in 35f..<40f -> {
-                colorId = R.color.imc_obesity2
-                textId = R.string.imc_obesity2
+                colorId = R.color.bmi_obesity2
+                textId = R.string.bmi_obesity2
                 showObesityDialog()
             }
             else -> {
-                colorId = R.color.imc_obesity3
-                textId = R.string.imc_obesity3
+                colorId = R.color.bmi_obesity3
+                textId = R.string.bmi_obesity3
                 showObesityDialog()
             }
         }

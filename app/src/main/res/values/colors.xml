@@ -8,10 +8,10 @@
     <color name="primary">#644F9F</color>
     <color name="secondary">#009688</color>
 
-    <color name="imc_underweight">#03A9F4</color>
-    <color name="imc_normal">#4CAF50</color>
-    <color name="imc_overweight">#FFC107</color>
-    <color name="imc_obesity1">#FF9800</color>
-    <color name="imc_obesity2">#FF5722</color>
-    <color name="imc_obesity3">#F44336</color>
+    <color name="bmi_underweight">#03A9F4</color>
+    <color name="bmi_normal">#4CAF50</color>
+    <color name="bmi_overweight">#FFC107</color>
+    <color name="bmi_obesity1">#FF9800</color>
+    <color name="bmi_obesity2">#FF5722</color>
+    <color name="bmi_obesity3">#F44336</color>
 </resources>
